@@ -1,0 +1,51 @@
+{
+  "name": "webpack-react-redux-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for building react redux web application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --mode production --config config/webpack/webpack.config.prod.js",
+    "build:dev": "webpack --progress --mode development --watch --config config/webpack/webpack.config.dev.js",
+    "build:clean": "rimraf ./dist"
+  },
+  "keywords": [
+    "boilerplate",
+    "webpack",
+    "webpack4",
+    "react",
+    "redux",
+    "web application",
+    "front-end"
+  ],
+  "author": "HoMuChen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^22.4.3",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "antd": "^3.4.0",
+    "immutable": "^3.8.2",
+    "lodash.zipobject": "^4.1.3",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-immutable": "^4.0.0",
+    "redux-thunk": "^2.2.0"
+  }
+}
