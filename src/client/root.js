@@ -5,7 +5,7 @@ import store from './store';
 import Routes from './routes';
 
 export default () => (
-	<Provider store={store}>
-		<Routes />
-	</Provider>
+  <Provider store={store}>
+    <Routes />
+  </Provider>
 )

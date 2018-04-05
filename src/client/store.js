@@ -8,8 +8,8 @@ import Reducers from './reducers';
 
 const store = __DEV__
   ?  createStore(
-	     Reducers,
-	     composeWithDevTools(applyMiddleware(thunkMiddleware)),
+       Reducers,
+       composeWithDevTools(applyMiddleware(thunkMiddleware)),
      )
   :  createStore(
        Reducers,
